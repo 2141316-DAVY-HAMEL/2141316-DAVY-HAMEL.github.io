@@ -1,0 +1,39 @@
+#container
+{
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+        "i1 i2 i2 i2 i2 i2"
+        "i1 i3 i3 i3 i3 i4"
+        "i1 i3 i3 i3 i3 i4"
+        "i1 i3 i3 i3 i3 i4"
+        "i1 i5 i5 i5 i5 i5";
+}
+
+.nav
+{
+    grid-area: i1;
+    background-color: chartreuse;
+}
+.header
+{
+    grid-area: i2;
+    background-color: chocolate;
+}
+.article
+{
+    grid-area: i3;
+    background-color: rgb(255, 0, 0);
+}
+.aside
+{
+    grid-area: i4;
+    background-color: cyan;
+}
+.footer
+{
+    grid-area: i5;
+    background-color: darkgreen;
+}

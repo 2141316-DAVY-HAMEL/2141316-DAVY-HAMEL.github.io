@@ -1,0 +1,19 @@
+h1 {
+    color: red;
+    font-size: 3em;
+    text-align: center;
+}
+.paragraphe {
+    text-align: justify;
+}
+.paragraphe span {
+    font-style: italic;
+    font-size: 2em;
+    color: green;
+}
+#paragraphe1 span{
+    color: purple;
+}
+h2:hover {
+    color: brown;
+}
